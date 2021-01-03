@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3041a19f-8e9a-48d3-b536-9d7a8aaa6a83" name="Default Changelist" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/posts/hi.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/hi.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609689967334</updated>
       <workItem from="1609689968571" duration="1890000" />
-      <workItem from="1609692018068" duration="1749000" />
+      <workItem from="1609692018068" duration="2123000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Remove first_post.md">
       <created>1609693307186</created>
@@ -96,7 +96,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609693750425</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: Change hi.md draft status">
+      <created>1609693813891</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609693813891</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Initial commit">
+      <created>1609693842016</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1609693842016</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,6 +134,7 @@
     <MESSAGE value="feat: Update default.md" />
     <MESSAGE value="feat: New hi.md" />
     <MESSAGE value="feat: New Makefile" />
+    <MESSAGE value="feat: Change hi.md draft status" />
     <MESSAGE value="Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
