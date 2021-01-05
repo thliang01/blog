@@ -1,4 +1,4 @@
-# Introduce
+# Personal Blog
 
 This is Thomas blog git repository.
 
