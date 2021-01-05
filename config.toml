@@ -11,6 +11,10 @@ theme = "uBlogger"
 [params]
   # uBlogger theme version
   version = "1.2.X"
+  # site description
+  description = "This is my Blog"
+  # site default theme ("light", "dark", "auto")
+  defaultTheme = "dark"
 
 [menu]
   [[menu.main]]
