@@ -27,5 +27,9 @@ toc:
 math:
   enable: false
 lightgallery: false
-license: ""
+license: "CC BY-NC-SA"
 ---
+
+## License
+* This article is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+* Please contact me for commercial use.
