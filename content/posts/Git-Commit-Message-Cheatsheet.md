@@ -27,7 +27,7 @@ toc:
 math:
   enable: false
 lightgallery: false
-license: "CC BY-NC-SA"
+license: license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
 ## Commit Message 規範組成：
