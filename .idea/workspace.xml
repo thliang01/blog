@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3041a19f-8e9a-48d3-b536-9d7a8aaa6a83" name="Default Changelist" comment="Initial commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +52,7 @@
       <updated>1609689967334</updated>
       <workItem from="1609689968571" duration="1890000" />
       <workItem from="1609692018068" duration="2123000" />
+      <workItem from="1609779197333" duration="13419000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Remove first_post.md">
       <created>1609693307186</created>
@@ -110,7 +110,49 @@
       <option name="project" value="LOCAL" />
       <updated>1609693842016</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="feat: Change title">
+      <created>1609779439196</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1609779439196</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: Change title">
+      <created>1609831144545</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1609831144545</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: New license">
+      <created>1609863796708</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1609863796708</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: New Git-Commit-Message-Cheatsheet.md">
+      <created>1609863831372</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1609863831372</updated>
+    </task>
+    <task id="LOCAL-00013" summary="feat: Update config.toml">
+      <created>1609863884422</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609863884422</updated>
+    </task>
+    <task id="LOCAL-00014" summary="feat: Update license">
+      <created>1609863953810</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609863953810</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,6 +178,11 @@
     <MESSAGE value="feat: New Makefile" />
     <MESSAGE value="feat: Change hi.md draft status" />
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="feat: Change title" />
+    <MESSAGE value="feat: New license" />
+    <MESSAGE value="feat: New Git-Commit-Message-Cheatsheet.md" />
+    <MESSAGE value="feat: Update config.toml" />
+    <MESSAGE value="feat: Update license" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Update license" />
   </component>
 </project>
