@@ -52,7 +52,7 @@
       <updated>1609689967334</updated>
       <workItem from="1609689968571" duration="1890000" />
       <workItem from="1609692018068" duration="2123000" />
-      <workItem from="1609779197333" duration="13419000" />
+      <workItem from="1609779197333" duration="16934000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Remove first_post.md">
       <created>1609693307186</created>
@@ -152,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609863953810</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="feat: Update workspace.xml">
+      <created>1609904845252</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609904845253</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +190,7 @@
     <MESSAGE value="feat: New Git-Commit-Message-Cheatsheet.md" />
     <MESSAGE value="feat: Update config.toml" />
     <MESSAGE value="feat: Update license" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Update license" />
+    <MESSAGE value="feat: Update workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Update workspace.xml" />
   </component>
 </project>
