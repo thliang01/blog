@@ -66,12 +66,20 @@ Flask
     
     RUN pip install -r requirements.txt
     
+    RUN pip install --upgrade pip
+    
     ENTRYPOINT [ "python" ]
     CMD [ "app.py" ]
 ```
 
 ## 建立 Dockerfile 映像檔
 ` $ docker build -t hello-world-docker .`
+
+## 執行 docker images
+` $ docker build -t hello.world-docker .`
+
+## docker run
+` $ docker run --rm -d -v `pwd`:/app -p 5000:5000 hello-world-docker`
 
 
 ## License
