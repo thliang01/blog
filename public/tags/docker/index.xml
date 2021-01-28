@@ -1,0 +1,17 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Docker - 標籤 - Thomas&#39;s Field</title>
+        <link>http://example.org/tags/docker/</link>
+        <description>Docker - 標籤 - Thomas&#39;s Field</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 08 Jan 2021 22:06:16 &#43;0800</lastBuildDate><atom:link href="http://example.org/tags/docker/" rel="self" type="application/rss+xml" /><item>
+    <title>Docker 101</title>
+    <link>http://example.org/posts/docker/</link>
+    <pubDate>Fri, 08 Jan 2021 22:06:16 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>http://example.org/posts/docker/</guid>
+    <description><![CDATA[創建 建立 運行 移除 Docker $ cat app.py
+from flask import Flask app = Flask(__name__) @app.route(&#39;/&#39;) def hello_world(): return &#39;Hello, World! (from a Docker container)&#39; if __name__ == &#39;__main__&#39;: app.run(debug=True, host=&#39;0.0.0.0&#39;) 建立 requirements.txt $ cat requirements.txt
+Flask 建立 Dockerfile  $ cat Dockerfile
+FROM python:3.7.3-alpine  ENV APP_HOME /app WORKDIR $APP_HOME  COPY requirment.txt .  RUN pip install -r requirements.txt  RUN pip install --upgrade pip  ENTRYPOINT [ &#34;python&#34; ] CMD [ &#34;app.]]></description>
+</item></channel>
+</rss>

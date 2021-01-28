@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title> | </title><meta name="Description" content="This is my Blog"><meta property="og:title" content="" />
+<meta property="og:description" content="End to End Machine Learning Projects 1. 了解大局  制定問題 選擇性能指標 檢查假設  2. 取得資料  建立工作區 下載資料 快入了解資料分佈 建立測試組  3. 探索資料並視覺化, 來取得見解  將資料視覺化 尋找相關性 用屬性組合進行實驗  4. 準備資料, 供 Maching Learning 使用  清理資料 處理文件與分類屬性 自訂轉換器 特徵縮放 轉換 pipeline  5. 選擇模型並訓練它  用訓練組來訓練與評估 使用交叉驗證來做更好的評估  6. 調整模型  微調模型  7. 展示解決方案 8. 啟動, 監視與維護系統 " />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/end-to-end-machine-learning.mm/" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content=""/>
+<meta name="twitter:description" content="End to End Machine Learning Projects 1. 了解大局  制定問題 選擇性能指標 檢查假設  2. 取得資料  建立工作區 下載資料 快入了解資料分佈 建立測試組  3. 探索資料並視覺化, 來取得見解  將資料視覺化 尋找相關性 用屬性組合進行實驗  4. 準備資料, 供 Maching Learning 使用  清理資料 處理文件與分類屬性 自訂轉換器 特徵縮放 轉換 pipeline  5. 選擇模型並訓練它  用訓練組來訓練與評估 使用交叉驗證來做更好的評估  6. 調整模型  微調模型  7. 展示解決方案 8. 啟動, 監視與維護系統 "/>
+<meta name="application-name" content="Thomas&#39;s Field">
+<meta name="apple-mobile-web-app-title" content="Thomas&#39;s Field"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/posts/end-to-end-machine-learning.mm/" /><link rel="next" href="http://example.org/posts/hi/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/posts\/end-to-end-machine-learning.mm\/"
+        },"genre": "posts","wordCount":  47 ,
+        "url": "http:\/\/example.org\/posts\/end-to-end-machine-learning.mm\/","publisher": {
+            "@type": "Organization",
+            "name": "作者"},"author": {
+                "@type": "Person",
+                "name": "作者"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="" data-header-mobile=""><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Thomas&#39;s Field" class="header-logo">Thomas&#39;s Field</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="切換主題">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Thomas&#39;s Field" class="header-logo">Thomas&#39;s Field</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切換主題">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header><main class="main"><div class="container content-article"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目錄</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single page-toc theme-classic"><div class="post-all-meta  padding-article ">
+                <div class="breadcrumbs">
+    <a href="/">主頁 </a>/ <a href="/">  </a>
+</div>
+                    <h1 class="single-title animated flipInX"></h1><div class="post-meta">
+                        <div class="post-meta-line">&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time class="timeago" datetime="0001-01-01">0001-01-01</time>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;約 47 字
+                            &nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;預計閱讀 1 分鐘</div>
+                    </div>
+                </div><div class="post"><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目錄</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-了解大局">1. 了解大局</a></li>
+    <li><a href="#2-取得資料">2. 取得資料</a></li>
+    <li><a href="#3-探索資料並視覺化-來取得見解">3. 探索資料並視覺化, 來取得見解</a></li>
+    <li><a href="#4-準備資料-供-maching-learning-使用">4. 準備資料, 供 Maching Learning 使用</a></li>
+    <li><a href="#5-選擇模型並訓練它">5. 選擇模型並訓練它</a></li>
+    <li><a href="#6-調整模型">6. 調整模型</a></li>
+    <li><a href="#7-展示解決方案">7. 展示解決方案</a></li>
+    <li><a href="#8-啟動-監視與維護系統">8. 啟動, 監視與維護系統</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content" style="padding-top: 20px"><h1 id="end-to-end-machine-learning-projects">End to End Machine Learning Projects</h1>
+<h2 id="1-了解大局">1. 了解大局</h2>
+<ul>
+<li>制定問題</li>
+<li>選擇性能指標</li>
+<li>檢查假設</li>
+</ul>
+<h2 id="2-取得資料">2. 取得資料</h2>
+<ul>
+<li>建立工作區</li>
+<li>下載資料</li>
+<li>快入了解資料分佈</li>
+<li>建立測試組</li>
+</ul>
+<h2 id="3-探索資料並視覺化-來取得見解">3. 探索資料並視覺化, 來取得見解</h2>
+<ul>
+<li>將資料視覺化</li>
+<li>尋找相關性</li>
+<li>用屬性組合進行實驗</li>
+</ul>
+<h2 id="4-準備資料-供-maching-learning-使用">4. 準備資料, 供 Maching Learning 使用</h2>
+<ul>
+<li>清理資料</li>
+<li>處理文件與分類屬性</li>
+<li>自訂轉換器</li>
+<li>特徵縮放</li>
+<li>轉換 pipeline</li>
+</ul>
+<h2 id="5-選擇模型並訓練它">5. 選擇模型並訓練它</h2>
+<ul>
+<li>用訓練組來訓練與評估</li>
+<li>使用交叉驗證來做更好的評估</li>
+</ul>
+<h2 id="6-調整模型">6. 調整模型</h2>
+<ul>
+<li>微調模型</li>
+</ul>
+<h2 id="7-展示解決方案">7. 展示解決方案</h2>
+<h2 id="8-啟動-監視與維護系統">8. 啟動, 監視與維護系統</h2>
+</div><div class="post-info-share">
+    <span></span>
+</div><div class="post-footer" id="post-footer"><div class="post-navigation">
+        <div class="post-nav-box nav-box-next">
+            <a class="nav-box" href="/posts/hi/"><div style="padding-right: 10px"><div class="nav-text-h">下一篇</div><span class="nav-text">Hi</span></div><span class="nav-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="chevron-circle-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 8c137 0 248 111 248 248S393 504 256 504 8 393 8 256 119 8 256 8zm113.9 231L234.4 103.5c-9.4-9.4-24.6-9.4-33.9 0l-17 17c-9.4 9.4-9.4 24.6 0 33.9L285.1 256 183.5 357.6c-9.4 9.4-9.4 24.6 0 33.9l17 17c9.4 9.4 24.6 9.4 33.9 0L369.9 273c9.4-9.4 9.4-24.6 0-34z"></path></svg></span></a>
+        </div></div></div>
+</div>
+
+    </article></div></main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.80.0">Hugo</a> | Theme - <a href="https://github.com/upagge/uBlogger" target="_blank" rel="noopener noreffer" title="uBlogger 1.2.0"><i class="far fa-kiss-wink-heart fa-fw"></i> uBlogger</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span>2021</span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到頂部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看評論">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script>window.config={"code":{"copyTitle":"複製到剪貼板","maxShownLines":10}};</script><script src="/js/theme.min.js"></script><script src="/js/jquery-3.5.1.min.js"></script></body>
+</html>

@@ -79,7 +79,7 @@ Flask
 ` $ docker build -t hello.world-docker .`
 
 ## docker run
-` $ docker run --rm -d -v `pwd`:/app -p 5000:5000 hello-world-docker`
+` $ docker run --rm -d -v ``pwd``:/app -p 5000:5000 hello-world-docker`
 
 
 ## License

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Docker 101 | </title><meta name="Description" content="創建 建立 運行 移除 Docker 映像"><meta property="og:title" content="Docker 101" />
+<meta property="og:description" content="創建 建立 運行 移除 Docker 映像" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/docker/" />
+<meta property="article:published_time" content="2021-01-08T22:06:16+08:00" />
+<meta property="article:modified_time" content="2021-01-08T22:06:16+08:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Docker 101"/>
+<meta name="twitter:description" content="創建 建立 運行 移除 Docker 映像"/>
+<meta name="application-name" content="Thomas&#39;s Field">
+<meta name="apple-mobile-web-app-title" content="Thomas&#39;s Field"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/posts/docker/" /><link rel="prev" href="http://example.org/posts/hi/" /><link rel="stylesheet" href="/lib/normalize/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Docker 101",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/posts\/docker\/"
+        },"genre": "posts","keywords": "Docker","wordCount":  114 ,
+        "url": "http:\/\/example.org\/posts\/docker\/","datePublished": "2021-01-08T22:06:16+08:00","dateModified": "2021-01-08T22:06:16+08:00","publisher": {
+            "@type": "Organization",
+            "name": "作者"},"author": {
+                "@type": "Person",
+                "name": "作者"
+            },"description": "創建 建立 運行 移除 Docker 映像"
+    }
+    </script><script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": "主頁",
+            "item": "http:\/\/example.org\/"
+        },{
+            "@type": "ListItem",
+            "position": 2,
+            "name": "DevOps",
+            "item": "http://example.org/categories/devops/"
+        },{
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Docker 101"
+            }]
+    }
+</script></head>
+    <body data-header-desktop="" data-header-mobile=""><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('dark' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'dark' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Thomas&#39;s Field" class="header-logo">Thomas&#39;s Field</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="切換主題">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Thomas&#39;s Field" class="header-logo">Thomas&#39;s Field</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切換主題">
+                <i class="fas fa-adjust fa-fw"></i>
+            </a></div>
+    </div>
+</header><main class="main"><div class="container content-article"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目錄</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single page-toc theme-classic"><div class="post-all-meta  padding-article ">
+                <div class="breadcrumbs">
+    <a href="/">主頁 </a>/ <a href="/categories/devops/">DevOps </a>/ <a href="/"> Docker 101 </a>
+</div>
+                    <h1 class="single-title animated flipInX">Docker 101</h1><div class="post-meta">
+                        <div class="post-meta-line"><span class="post-category">
+                                <a href="/categories/devops/"><i class="far fa-folder fa-fw"></i>&nbsp;DevOps</a>
+                            </span>&nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time class="timeago" datetime="2021-01-08">2021-01-08</time>&nbsp;&nbsp;&nbsp;&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;約 114 字
+                            &nbsp;&nbsp;&nbsp;&nbsp;<i class="far fa-clock fa-fw"></i>&nbsp;預計閱讀 1 分鐘</div>
+                    </div>
+                </div><div class="post"><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目錄</span>
+                    <span><i class="details-icon fas fa-angle-right"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#創建-建立-運行-移除-docker">創建 建立 運行 移除 Docker</a></li>
+    <li><a href="#建立-requirementstxt">建立 requirements.txt</a></li>
+    <li><a href="#建立-dockerfile">建立 Dockerfile</a></li>
+    <li><a href="#建立-dockerfile-映像檔">建立 Dockerfile 映像檔</a></li>
+    <li><a href="#執行-docker-images">執行 docker images</a></li>
+    <li><a href="#docker-run">docker run</a></li>
+    <li><a href="#license">License</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content" style="padding-top: 20px"><h2 id="創建-建立-運行-移除-docker">創建 建立 運行 移除 Docker</h2>
+<p><code>$ cat app.py</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-python" data-lang="python"><span class="kn">from</span> <span class="nn">flask</span> <span class="kn">import</span> <span class="n">Flask</span> 
+
+<span class="n">app</span> <span class="o">=</span> <span class="n">Flask</span><span class="p">(</span><span class="vm">__name__</span><span class="p">)</span>
+
+<span class="nd">@app.route</span><span class="p">(</span><span class="s1">&#39;/&#39;</span><span class="p">)</span> 
+
+<span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="k">return</span> <span class="s1">&#39;Hello, World! (from a Docker container)&#39;</span> 
+ 
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">app</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="n">debug</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span> <span class="n">host</span><span class="o">=</span><span class="s1">&#39;0.0.0.0&#39;</span><span class="p">)</span>
+</code></pre></div><h2 id="建立-requirementstxt">建立 requirements.txt</h2>
+<p><code>$ cat requirements.txt</code></p>
+<pre><code>Flask
+</code></pre><h2 id="建立-dockerfile">建立 Dockerfile</h2>
+<p><code> $ cat Dockerfile</code></p>
+<div class="highlight"><pre class="chroma"><code class="language-Dockerfile" data-lang="Dockerfile">    FROM python:3.7.3-alpine<span class="err">
+</span><span class="err"></span>    <span class="err">
+</span><span class="err"></span>    ENV APP_HOME /app<span class="err">
+</span><span class="err"></span>    WORKDIR <span class="nv">$APP_HOME</span><span class="err">
+</span><span class="err"></span>    <span class="err">
+</span><span class="err"></span>    COPY requirment.txt .<span class="err">
+</span><span class="err"></span>    <span class="err">
+</span><span class="err"></span>    RUN pip install -r requirements.txt<span class="err">
+</span><span class="err"></span>    <span class="err">
+</span><span class="err"></span>    RUN pip install --upgrade pip<span class="err">
+</span><span class="err"></span>    <span class="err">
+</span><span class="err"></span>    ENTRYPOINT <span class="o">[</span> <span class="s2">&#34;python&#34;</span> <span class="o">]</span><span class="err">
+</span><span class="err"></span>    CMD <span class="o">[</span> <span class="s2">&#34;app.py&#34;</span> <span class="o">]</span><span class="err">
+</span></code></pre></div><h2 id="建立-dockerfile-映像檔">建立 Dockerfile 映像檔</h2>
+<p><code> $ docker build -t hello-world-docker .</code></p>
+<h2 id="執行-docker-images">執行 docker images</h2>
+<p><code> $ docker build -t hello.world-docker .</code></p>
+<h2 id="docker-run">docker run</h2>
+<p><code> $ docker run --rm -d -v ``pwd``:/app -p 5000:5000 hello-world-docker</code></p>
+<h2 id="license">License</h2>
+<ul>
+<li>This article is licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank" rel="noopener noreffer">CC BY-NC-SA 4.0</a>.</li>
+<li>Please contact me for commercial use.</li>
+</ul>
+</div><div class="post-info-share">
+    <span></span>
+</div><div class="post-footer" id="post-footer"><div class="post-navigation"><div class="post-nav-box nav-box-prev">
+            <a class="nav-box" href="/posts/hi/"><span class="nav-icon"><svg aria-hidden="true" data-prefix="fas" data-icon="chevron-circle-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg=""><path fill="currentColor" d="M256 504C119 504 8 393 8 256S119 8 256 8s248 111 248 248-111 248-248 248zM142.1 273l135.5 135.5c9.4 9.4 24.6 9.4 33.9 0l17-17c9.4-9.4 9.4-24.6 0-33.9L226.9 256l101.6-101.6c9.4-9.4 9.4-24.6 0-33.9l-17-17c-9.4-9.4-24.6-9.4-33.9 0L142.1 239c-9.4 9.4-9.4 24.6 0 34z"></path></svg></span><div style="text-align: right;padding-left: 10px"><div class="nav-text-h">下一篇</div><span class="nav-text">Hi</span></div></a>
+        </div></div></div>
+</div>
+
+    </article><div class=" post-tags post-tags-toc "><a href="/tags/docker/" class="tag">Docker</a></div></div></main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.80.0">Hugo</a> | Theme - <a href="https://github.com/upagge/uBlogger" target="_blank" rel="noopener noreffer" title="uBlogger 1.2.0"><i class="far fa-kiss-wink-heart fa-fw"></i> uBlogger</a>
+                </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span>2021</span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到頂部">
+                <i class="fas fa-arrow-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看評論">
+                <i class="fas fa-comment fa-fw"></i>
+            </a>
+        </div><script src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script>window.config={"code":{"copyTitle":"複製到剪貼板","maxShownLines":10}};</script><script src="/js/theme.min.js"></script><script src="/js/jquery-3.5.1.min.js"></script></body>
+</html>

@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3041a19f-8e9a-48d3-b536-9d7a8aaa6a83" name="Default Changelist" comment="Initial commit">
+    <list default="true" id="3041a19f-8e9a-48d3-b536-9d7a8aaa6a83" name="Default Changelist" comment="faet: Update Docker.md">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/posts/Docker.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/posts/Docker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/uBlogger" beforeDir="false" afterPath="$PROJECT_DIR$/themes/uBlogger" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../streamlit-nba" />
   </component>
   <component name="RunManager">
     <configuration name="build" type="MAKEFILE_TARGET_RUN_CONFIGURATION" factoryName="Makefile" temporary="true">
@@ -53,7 +55,8 @@
       <workItem from="1609689968571" duration="1890000" />
       <workItem from="1609692018068" duration="2123000" />
       <workItem from="1609779197333" duration="16934000" />
-      <workItem from="1610117739638" duration="3892000" />
+      <workItem from="1610117739638" duration="5633000" />
+      <workItem from="1610516821453" duration="33000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Remove first_post.md">
       <created>1609693307186</created>
@@ -160,7 +163,28 @@
       <option name="project" value="LOCAL" />
       <updated>1609904845253</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="faet: New Docker.md">
+      <created>1610121691736</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1610121691737</updated>
+    </task>
+    <task id="LOCAL-00017" summary="faet: Update Docker.md">
+      <created>1610121873926</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1610121873926</updated>
+    </task>
+    <task id="LOCAL-00018" summary="faet: Update Docker.md">
+      <created>1610122761750</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610122761750</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +216,9 @@
     <MESSAGE value="feat: Update config.toml" />
     <MESSAGE value="feat: Update license" />
     <MESSAGE value="feat: Update workspace.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Update workspace.xml" />
+    <MESSAGE value="feat: New Docker.md" />
+    <MESSAGE value="faet: New Docker.md" />
+    <MESSAGE value="faet: Update Docker.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="faet: Update Docker.md" />
   </component>
 </project>
