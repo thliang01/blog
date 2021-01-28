@@ -12,7 +12,7 @@ page:
 upd: ""
 authorComment: ""
 
-tags: ["Machine Learning"]
+tags: ["Machine Learning 101"]
 categories: ["Machine Learning"]
 
 hiddenFromHomePage: false
