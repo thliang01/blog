@@ -70,10 +70,10 @@ other = "zh-hant"
 
 # === partials/assets.html ===
 [search]
-other = "搜索"
+other = "搜尋"
 
 [searchPlaceholder]
-other = "搜索文章標題或內容..."
+other = "搜尋文章標題或內容..."
 
 [clear]
 other = "清空"
