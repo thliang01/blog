@@ -19,7 +19,7 @@ authorComment: ""
 tags: ["emoji"]
 categories: ["Markdown"]
 
-hiddenFromHomePage: true
+hiddenFromHomePage: false
 hiddenFromSearch: false
 
 featuredImage: ""
