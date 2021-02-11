@@ -8,7 +8,7 @@ author: ""
 description: "Guide to emoji usage in Hugo and Blog."
 resources:
 - name: "Emoji-Cheatsheet"
-  src: "featured-Emoji-Cheatsheet.png"
+  src: "featured-image.jpg"
   
 page:
     theme: "wide"
