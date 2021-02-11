@@ -22,8 +22,8 @@ categories: ["Markdown"]
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-# featuredImage: "Emoji-Cheatsheet"
-# featuredImagePreview: "featured-Emoji-Cheatsheet.png"
+featuredImage: "Emoji-Cheatsheet"
+featuredImagePreview: "featured-image.jpg"
 
 toc:
   enable: true
