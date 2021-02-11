@@ -6,9 +6,6 @@ lastmod: 2021-02-11T10:44:36+08:00
 draft: false
 author: ""
 description: "Guide to emoji usage in Hugo and Blog."
-resources:
-- name: "Emoji-Cheatsheet"
-  src: "Emoji-Cheatsheet.jpg"
 
 page:
     theme: "wide"
@@ -22,8 +19,8 @@ categories: ["Markdown"]
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-featuredImage: ""
-featuredImagePreview: ""
+featuredImage: "Emoji-Cheatsheet"
+featuredImagePreview: "Emoji-Cheatsheet.jpg"
 
 toc:
   enable: true
