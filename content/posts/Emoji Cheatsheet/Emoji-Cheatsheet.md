@@ -20,7 +20,7 @@ hiddenFromHomePage: false
 hiddenFromSearch: false
 
 featuredImage: "Emoji-Cheatsheet"
-featuredImagePreview: "Emoji-Cheatsheet.jpg"
+featuredImagePreview: "featured-Emoji-Cheatsheet.jpg"
 
 toc:
   enable: true
@@ -33,6 +33,8 @@ license: license = '<a rel="license external nofollow noopener noreffer" href="h
 ## Emoji-Cheatsheet
 
 Emoji can be enabled in a Hugo project in a number of ways.
+
+
 
 ## License
 * This article is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
