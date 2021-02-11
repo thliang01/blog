@@ -1,5 +1,5 @@
 ---
-title: "Hi"
+title: "Shortcodes-cheatsheet"
 subtitle: ""
 date: 2021-01-03T03:36:31+08:00
 lastmod: 2021-01-03T03:36:31+08:00
@@ -13,8 +13,8 @@ page:
 upd: ""
 authorComment: ""
 
-tags: ["Test"]
-categories: ["Testing"]
+tags: ["Blog"]
+categories: [""]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
@@ -31,9 +31,7 @@ license: license = '<a rel="license external nofollow noopener noreffer" href="h
 
 ---
 
-{{< admonition >}}
-    Hi
-{{< /admonition >}}
+# Hello
 
 ## License
 * This article is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
