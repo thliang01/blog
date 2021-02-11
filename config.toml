@@ -1,8 +1,8 @@
 baseURL = "https://thliang.dev/"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "zh-hant"
-# language code
-languageCode = "en"
+# # language code
+# languageCode = "en"
 # website title
 title = "Thomas's Field"
 
