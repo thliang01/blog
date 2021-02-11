@@ -9,6 +9,9 @@ title = "Thomas's Field"
 # Change the default theme to be use when building the site with Hugo
 theme = "uBlogger"
 
+# whether to use robots.txt
+enableRobotsTXT = true
+
 [params]
   # uBlogger theme version
   version = "1.2.X"
