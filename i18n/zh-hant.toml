@@ -146,7 +146,7 @@ other = "主頁"
 other = "頁面沒找到"
 
 [pageNotFoundText]
-other = "抱歉，您要查找的頁面不存在。"
+other = "抱歉，您要尋找的網頁不存在。"
 # === 404.html ===
 
 # === shortcodes/admonition.html ===
