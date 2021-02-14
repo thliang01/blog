@@ -1,7 +1,7 @@
 ---
 title: "End to End Machine Learning"
 date: 2021-01-24T13:45:42+08:00
-draft: false
+draft: true
 subtitle: "Machine Learning visualization"
 author: ""
 description: ""
