@@ -6,7 +6,7 @@ defaultContentLanguage = "zh-hant"
 # website title
 title = "Thomas's Field"
 
-# Change the default theme to be use when building the site with Hugo
+# themes
 theme = "uBlogger"
 
 # whether to use robots.txt
