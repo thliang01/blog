@@ -20,7 +20,7 @@ hiddenFromHomePage: false
 hiddenFromSearch: false
 
 featuredImage: "Emoji-Cheatsheet"
-featuredImagePreview: "featured-image.jpg"
+featuredImagePreview: "images/featured-image.jpg"
 
 toc:
   enable: true
