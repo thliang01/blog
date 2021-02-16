@@ -12,15 +12,17 @@ page:
 
 upd: ""
 authorComment: ""
-
+resources:
+- name: "Emoji-Cheatsheet"
+  src: "featured-image.jpg"
 tags: ["emoji"]
 categories: ["Markdown"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-featuredImage: "Emoji-Cheatsheet"
-featuredImagePreview: "images/featured-image.jpg"
+# featuredImage: "Emoji-Cheatsheet"
+# featuredImagePreview: "images/featured-image.jpg"
 
 toc:
   enable: true
