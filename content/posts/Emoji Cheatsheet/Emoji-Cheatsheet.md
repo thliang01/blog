@@ -12,9 +12,6 @@ page:
 
 upd: ""
 authorComment: ""
-resources:
-- name: "Emoji-Cheatsheet"
-  src: "featured-image.jpg"
 tags: ["emoji"]
 categories: ["Markdown"]
 
