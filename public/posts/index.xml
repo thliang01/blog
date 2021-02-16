@@ -1,50 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Posts on Thomas&#39;s Field</title>
-    <link>https://thliang.dev/posts/</link>
-    <description>Recent content in Posts on Thomas&#39;s Field</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 11 Feb 2021 10:44:36 +0800</lastBuildDate><atom:link href="https://thliang.dev/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Emoji Cheatsheet</title>
-      <link>https://thliang.dev/posts/emoji-cheatsheet/emoji-cheatsheet/</link>
-      <pubDate>Thu, 11 Feb 2021 10:44:36 +0800</pubDate>
-      
-      <guid>https://thliang.dev/posts/emoji-cheatsheet/emoji-cheatsheet/</guid>
-      <description>Emoji-Cheatsheet Emoji can be enabled in a Hugo project in a number of ways.
-License  This article is licensed under CC BY-NC-SA 4.0. Please contact me for commercial use.  </description>
-    </item>
-    
-    <item>
-      <title>End to End Machine Learning</title>
-      <link>https://thliang.dev/posts/end-to-end-machine-learning/</link>
-      <pubDate>Sun, 24 Jan 2021 13:45:42 +0800</pubDate>
-      
-      <guid>https://thliang.dev/posts/end-to-end-machine-learning/</guid>
-      <description>End to End Machine Learning Projects 1. 了解大局  制定問題 選擇性能指標 檢查假設  2. 取得資料  建立工作區 下載資料 快入了解資料分佈 建立測試組  3. 探索資料並視覺化, 來取得見解  將資料視覺化 尋找相關性 用屬性組合進行實驗  4. 準備資料, 供 Maching Learning 使用  清理資料 處理文件與分類屬性 自訂轉換器 特徵縮放 轉換 pipeline  5. 選擇模型並訓練它  用訓練組來訓練與評估 使用交叉驗證來做更好的評估  6. 調整模型  微調模型  7. 展示解決方案 8. 啟動, 監視與維護系統 License  This article is licensed under CC BY-NC-SA 4.0. Please contact me for commercial use.</description>
-    </item>
-    
-    <item>
-      <title>Docker 101</title>
-      <link>https://thliang.dev/posts/docker/</link>
-      <pubDate>Fri, 08 Jan 2021 22:06:16 +0800</pubDate>
-      
-      <guid>https://thliang.dev/posts/docker/</guid>
-      <description>創建 建立 運行 移除 Docker $ cat app.py
-from flask import Flask app = Flask(__name__) @app.route(&amp;#39;/&amp;#39;) def hello_world(): return &amp;#39;Hello, World! (from a Docker container)&amp;#39; if __name__ == &amp;#39;__main__&amp;#39;: app.run(debug=True, host=&amp;#39;0.0.0.0&amp;#39;) 建立 requirements.txt $ cat requirements.txt
-Flask 建立 Dockerfile  $ cat Dockerfile
-FROM python:3.7.3-alpine  ENV APP_HOME /app WORKDIR $APP_HOME  COPY requirment.txt .  RUN pip install -r requirements.txt  RUN pip install --upgrade pip  ENTRYPOINT [ &amp;#34;python&amp;#34; ] CMD [ &amp;#34;app.</description>
-    </item>
-    
-    <item>
-      <title>Shortcodes-cheatsheet</title>
-      <link>https://thliang.dev/posts/hi/</link>
-      <pubDate>Sun, 03 Jan 2021 03:36:31 +0800</pubDate>
-      
-      <guid>https://thliang.dev/posts/hi/</guid>
-      <description>Hello License  This article is licensed under CC BY-NC-SA 4.0. Please contact me for commercial use.  </description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - Thomas&#39;s Field</title>
+        <link>https://thliang.dev/posts/</link>
+        <description>所有文章 | Thomas&#39;s Field</description>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 11 Feb 2021 10:44:36 &#43;0800</lastBuildDate><atom:link href="https://thliang.dev/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Emoji Cheatsheet</title>
+    <link>https://thliang.dev/posts/emoji-cheatsheet/</link>
+    <pubDate>Thu, 11 Feb 2021 10:44:36 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://thliang.dev/posts/emoji-cheatsheet/</guid>
+    <description><![CDATA[ 
+Emoji-Cheatsheet Emoji can be enabled in a Hugo project in a number of ways.
+License  This article is licensed under CC BY-NC-SA 4.0. Please contact me for commercial use.  ]]></description>
+</item></channel>
 </rss>

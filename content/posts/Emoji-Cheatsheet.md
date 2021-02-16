@@ -18,8 +18,8 @@ categories: ["Markdown"]
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-# featuredImage: "Emoji-Cheatsheet"
-# featuredImagePreview: "images/featured-image.jpg"
+featuredImage: "Emoji-Cheatsheet"
+featuredImagePreview: "images/featured-image.jpg"
 
 toc:
   enable: true
@@ -28,8 +28,6 @@ math:
 lightgallery: true
 license: license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
-
-![Emoji-Cheatsheet](images/featured-image.jpg)
 
 ## Emoji-Cheatsheet
 
