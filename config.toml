@@ -28,6 +28,9 @@ enableEmoji = true
   keywords = ["Blog", "Tech"]
   # site default theme ("light", "dark", "auto")
   defaultTheme = "dark"
+  # public git repo url only then enableGitInfo is true
+  gitRepo = "https://github.com/thliang01/blog"
+  #
 
 [menu]
   [[menu.main]]
