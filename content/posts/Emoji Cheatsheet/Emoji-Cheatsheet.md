@@ -30,6 +30,8 @@ lightgallery: true
 license: license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 
+![Emoji-Cheatsheet](images/featured-image.jpg)
+
 ## Emoji-Cheatsheet
 
 Emoji can be enabled in a Hugo project in a number of ways.
