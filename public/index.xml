@@ -11,8 +11,9 @@
     <pubDate>Thu, 11 Feb 2021 10:44:36 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://thliang.dev/posts/emoji-cheatsheet/</guid>
-    <description><![CDATA[ 
-Emoji-Cheatsheet Emoji can be enabled in a Hugo project in a number of ways.
+    <description><![CDATA[<div class="featured-image">
+                <img src="/Emoji-Cheatsheet" referrerpolicy="no-referrer">
+            </div>Emoji-Cheatsheet Emoji can be enabled in a Hugo project in a number of ways.
 License  This article is licensed under CC BY-NC-SA 4.0. Please contact me for commercial use.  ]]></description>
 </item></channel>
 </rss>
