@@ -69,7 +69,14 @@ enableEmoji = true
     index = "thliang-blog"
     key = "12511051e4d2c9f31b61b1614dd18954"
     appID = "OSIJOYF4SB"
-    
+
+# Header config
+  [params.header]
+    # desktop header mode ("fixed", "normal", "auto")
+    desktopMode = "fixed"
+    # mobile header mode ("fixed", "normal", "auto")
+    mobileMode = "auto"
+    #     
 
 [menu]
   [[menu.main]]
