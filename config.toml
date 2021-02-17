@@ -19,9 +19,6 @@ enableGitInfo = true
 # whether to use emoji code
 enableEmoji = true
 
-# website images for Open Graph and Twitter Cards
-images = ["/images/me-avatar.png"]
-
 [params]
     # uBlogger theme version
     version = "1.3.X"
