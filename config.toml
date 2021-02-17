@@ -20,151 +20,161 @@ enableGitInfo = true
 enableEmoji = true
 
 [params]
-    # uBlogger theme version
-    version = "1.3.X"
-    # site description
-    description = "This is my Blog"
-    # site keywords
-    keywords = ["Blog", "Tech"]
-    # site default theme ("light", "dark", "auto")
-    defaultTheme = "dark"
-    # public git repo url only then enableGitInfo is true
-    gitRepo = "https://github.com/thliang01/blog"
-    #
+# uBlogger theme version
+version = "1.3.X"
+# site description
+description = "This is my Blog"
+# site keywords
+keywords = ["Blog", "Tech"]
+# site default theme ("light", "dark", "auto")
+defaultTheme = "dark"
+# public git repo url only then enableGitInfo is true
+gitRepo = "https://github.com/thliang01/blog"
+#
 
 # App icon config
 [params.app]
-    # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "Thomas's Field"
-    # whether to omit favicon resource links
-    noFavicon = false
-    # modern SVG favicon to use in place of older style .png and .ico files
-    svgFavicon = ""
-    # Android browser theme color
-    themeColor = "#ffffff"
-    # Safari mask icon color
-    iconColor = "#5bbad5"
-    # Windows v8-10 tile color
-    tileColor = "#da532c"
-    #
+# optional site title override for the app when added to an iOS home screen or Android launcher
+title = "Thomas's Field"
+# whether to omit favicon resource links
+noFavicon = false
+# modern SVG favicon to use in place of older style .png and .ico files
+svgFavicon = ""
+# Android browser theme color
+themeColor = "#ffffff"
+# Safari mask icon color
+iconColor = "#5bbad5"
+# Windows v8-10 tile color
+tileColor = "#da532c"
+#
 
 # Search config
 [params.search]
-    enable = true
-    # type of search engine ("lunr", "algolia")
-    type = "algolia"
-    # max index length of the chunked content
-    contentLength = 4000
-    # placeholder of the search bar
-    placeholder = ""
-    # max number of results length
-    maxResultLength = 10
-    # snippet length of the result
-    snippetLength = 30
-    # HTML tag name of the highlight part in results
-    highlightTag = "em"
-    # whether to use the absolute URL based on the baseURL in search index
-    absoluteURL = false
+enable = true
+# type of search engine ("lunr", "algolia")
+type = "algolia"
+# max index length of the chunked content
+contentLength = 4000
+# placeholder of the search bar
+placeholder = ""
+# max number of results length
+maxResultLength = 10
+# snippet length of the result
+snippetLength = 30
+# HTML tag name of the highlight part in results
+highlightTag = "em"
+# whether to use the absolute URL based on the baseURL in search index
+absoluteURL = false
 [params.search.algolia]
-    index = "thliang-blog"
-    key = "12511051e4d2c9f31b61b1614dd18954"
-    appID = "OSIJOYF4SB"
+index = "thliang-blog"
+key = "12511051e4d2c9f31b61b1614dd18954"
+appID = "OSIJOYF4SB"
 
 # Header config
-  [params.header]
-    # desktop header mode ("fixed", "normal", "auto")
-    desktopMode = "fixed"
-    # mobile header mode ("fixed", "normal", "auto")
-    mobileMode = "auto"
-    #
+[params.header]
+# desktop header mode ("fixed", "normal", "auto")
+desktopMode = "fixed"
+# mobile header mode ("fixed", "normal", "auto")
+mobileMode = "auto"
+#
 
 # Header title config
-  [params.header.title]
-    # URL of the LOGO
-    logo = ""
-    # title name
-    name = "Thomas's Field"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    # whether to use typeit animation for title name
-    typeit = true      
+[params.header.title]
+# URL of the LOGO
+logo = ""
+# title name
+name = "Thomas's Field"
+# you can add extra information before the name (HTML format is supported), such as icons
+pre = ""
+# you can add extra information after the name (HTML format is supported), such as icons
+post = ""
+# whether to use typeit animation for title name
+typeit = true
 
 # Footer config
-  [params.footer]
-    enable = true
-    # Custom content (HTML format is supported)
-    custom = ''
-    # whether to show Hugo and theme info
-    hugo = true
-    # whether to show copyright info
-    # 是否显示版权信息
-    copyright = true
-    # whether to show the author
-    author = true
-    # site creation time
-    since = 2020
-    # license info (HTML format is supported)
-    license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+[params.footer]
+enable = true
+# Custom content (HTML format is supported)
+custom = ''
+# whether to show Hugo and theme info
+hugo = true
+# whether to show copyright info
+# 是否显示版权信息
+copyright = true
+# whether to show the author
+author = true
+# site creation time
+since = 2020
+# license info (HTML format is supported)
+license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
 # Section (all posts) page config
 [params.section]
-    # special amount of posts in each section page
-    paginate = 20
-    # date format (month and day)
-    dateFormat = "01-02"
-    # amount of RSS pages
-    rss = 10
+# special amount of posts in each section page
+paginate = 20
+# date format (month and day)
+dateFormat = "01-02"
+# amount of RSS pages
+rss = 10
+
+# List (category or tag) page config
+[params.list]
+# special amount of posts in each list page
+paginate = 20
+# date format (month and day)
+dateFormat = "01-02"
+# amount of RSS pages
+# RSS 文章数目
+rss = 10
 
 [menu]
-  [[menu.main]]
-    identifier = "posts"
-    # you can add extra information before the name (HTML format is supported), such as icons
-    pre = ""
-    # you can add extra information after the name (HTML format is supported), such as icons
-    post = ""
-    name = "Posts"
-    url = "/posts/"
-    # title will be shown when you hover on this menu link
-    title = ""
-    weight = 1
-  [[menu.main]]
-    identifier = "tags"
-    pre = ""
-    post = ""
-    name = "Tags"
-    url = "/tags/"
-    title = ""
-    weight = 2
-  [[menu.main]]
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
-    title = ""
-    weight = 3
-  [[menu.main]]
-    identifier = "about"
-    pre = ""
-    post = ""
-    name = "About"
-    url = "/about/"
-    title = ""
-    weight = 4
-   [[menu.main]]
-    identifier = "github"
-    pre = "<i class='fab fa-github fa-fw'></i>"
-    post = ""
-    name = ""
-    url = "https://github.com/thliang01"
-    title = ""
-    weight = 5
+[[menu.main]]
+identifier = "posts"
+# you can add extra information before the name (HTML format is supported), such as icons
+pre = ""
+# you can add extra information after the name (HTML format is supported), such as icons
+post = ""
+name = "Posts"
+url = "/posts/"
+# title will be shown when you hover on this menu link
+title = ""
+weight = 1
+[[menu.main]]
+identifier = "tags"
+pre = ""
+post = ""
+name = "Tags"
+url = "/tags/"
+title = ""
+weight = 2
+[[menu.main]]
+identifier = "categories"
+pre = ""
+post = ""
+name = "Categories"
+url = "/categories/"
+title = ""
+weight = 3
+[[menu.main]]
+identifier = "about"
+pre = ""
+post = ""
+name = "About"
+url = "/about/"
+title = ""
+weight = 4
+[[menu.main]]
+identifier = "github"
+pre = "<i class='fab fa-github fa-fw'></i>"
+post = ""
+name = ""
+url = "https://github.com/thliang01"
+title = ""
+weight = 5
 
 # Markup related configuration in Hugo
 [markup]
-  # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
-  [markup.highlight]
-    # false is a necessary configuration
-    noClasses = false
+# Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
+[markup.highlight]
+# false is a necessary configuration
+noClasses = false
