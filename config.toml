@@ -227,6 +227,7 @@ Bilibili = ""
 Email = "thliang01@gmail.com"
 RSS = true # 
 
+
 [menu]
 [[menu.main]]
 identifier = "posts"
@@ -277,4 +278,8 @@ weight = 5
 # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
 [markup.highlight]
 # false is a necessary configuration
+codeFences = true
+guessSyntax = true
+lineNos = true
+lineNumbersInTable = true
 noClasses = false
