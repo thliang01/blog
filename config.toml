@@ -76,7 +76,19 @@ enableEmoji = true
     desktopMode = "fixed"
     # mobile header mode ("fixed", "normal", "auto")
     mobileMode = "auto"
-    #     
+    #
+
+# Header title config
+  [params.header.title]
+    # URL of the LOGO
+    logo = ""
+    # title name
+    name = ""
+    # you can add extra information before the name (HTML format is supported), such as icons
+    pre = ""
+    # you can add extra information after the name (HTML format is supported), such as icons
+    post = ""
+    #       
 
 [menu]
   [[menu.main]]
