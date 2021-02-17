@@ -65,6 +65,11 @@ enableEmoji = true
     highlightTag = "em"
     # whether to use the absolute URL based on the baseURL in search index
     absoluteURL = false
+[params.search.algolia]
+    index: "thliang-blog"
+    key: "12511051e4d2c9f31b61b1614dd18954"
+    appID: "OSIJOYF4SB"
+    
 
 [menu]
   [[menu.main]]

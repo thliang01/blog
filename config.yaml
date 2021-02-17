@@ -1,0 +1,13 @@
+---
+baseurl: "/"
+DefaultContentLanguage: "zh-hant"
+hasCJKLanguage: true
+languageCode: "zh-hant"
+title: "Thomas's Field"
+theme: "uBlogger"
+metaDataFormat: "yaml"
+algolia:
+  index: "thliang-blog"
+  key: "12511051e4d2c9f31b61b1614dd18954"
+  appID: "OSIJOYF4SB"
+---

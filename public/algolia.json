@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Emoji Cheatsheet",
+        "uri": "posts/Emoji-Cheatsheet",
+        "content": "Emoji Cheatsheet Emoji enabled Hugo project number ways  License article licensed CC BY NC SA 4 0  Please contact commercial use",
+        "objectID": "posts/Emoji-Cheatsheet",
+        "subtitle": "",
+        "date": "2021-02-11T02:44:36.000Z",
+        "lastmod": "2021-02-11T02:44:36.000Z",
+        "draft": false,
+        "author": "",
+        "description": "Guide to emoji usage in Hugo and Blog.",
+        "page": {
+            "theme": "wide"
+        },
+        "upd": "",
+        "authorComment": "",
+        "tags": [
+            "emoji"
+        ],
+        "categories": [
+            "Markdown"
+        ],
+        "hiddenFromHomePage": false,
+        "hiddenFromSearch": false,
+        "featuredImage": "Emoji-Cheatsheet",
+        "featuredImagePreview": "images/featured-image.jpg",
+        "toc": {
+            "enable": true
+        },
+        "math": {
+            "enable": false
+        },
+        "lightgallery": true,
+        "license": "license = '<a rel=\"license external nofollow noopener noreffer\" href=\"https://creativecommons.org/licenses/by-nc/4.0/\" target=\"_blank\">CC BY-NC 4.0</a>'"
+    }
+]
