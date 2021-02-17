@@ -163,11 +163,11 @@ defaultHiddenFromHomePage = false
 # Social config about the author
 [params.social]
 GitHub = "thliang01"
-Linkedin = ""
-Twitter = "xxxx"
-Instagram = "xxxx"
-Facebook = "xxxx"
-Telegram = "xxxx"
+Linkedin = "thomas-guang-ting-liang-241180182"
+Twitter = "thliang001"
+Instagram = ""
+Facebook = ""
+Telegram = ""
 Medium = ""
 Gitlab = ""
 Youtubelegacy = ""
