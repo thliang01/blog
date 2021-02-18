@@ -239,11 +239,13 @@ shortname = "@disqus_4HC9XXRX6R"
 # Gitalk comment config
 [params.comment.gitalk]
 # 
-enable = false
-owner = ""
-repo = ""
-clientId = ""
-clientSecret = ""
+enable = true
+owner = "thliang01"
+repo = "https://github.com/thliang01/blog"
+clientId = "101ba67408c0948a367f"
+clientSecret = "727a3f5bbb53b0d485b9290eaab857ac9a8dd4dd"
+language = "zh-TW"
+
 [menu]
 [[menu.main]]
 identifier = "posts"
