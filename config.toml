@@ -231,7 +231,7 @@ RSS = true #
 enable = true
 # Disqus comment config (https://disqus.com/)
 [params.comment.disqus]
-enable = true
+enable = false
 # Disqus shortname to use Disqus in posts
 shortname = "@disqus_4HC9XXRX6R"
 
