@@ -2,10 +2,13 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://thliang.dev/categories/</loc><lastmod>2021-02-16T23:23:03&#43;08:00</lastmod></url><url>
+            <loc>https://thliang.dev/posts/basic-markdown-syntax/</loc><lastmod>2021-02-18T14:29:04&#43;08:00</lastmod></url><url>
+            <loc>https://thliang.dev/categories/</loc><lastmod>2021-02-18T14:29:04&#43;08:00</lastmod></url><url>
             <loc>https://thliang.dev/tags/emoji/</loc><lastmod>2021-02-16T23:23:03&#43;08:00</lastmod></url><url>
             <loc>https://thliang.dev/posts/emoji-cheatsheet/</loc><lastmod>2021-02-16T23:23:03&#43;08:00</lastmod></url><url>
-            <loc>https://thliang.dev/categories/markdown/</loc><lastmod>2021-02-16T23:23:03&#43;08:00</lastmod></url><url>
-            <loc>https://thliang.dev/posts/</loc><lastmod>2021-02-16T23:23:03&#43;08:00</lastmod></url><url>
-            <loc>https://thliang.dev/tags/</loc><lastmod>2021-02-16T23:23:03&#43;08:00</lastmod></url><url>
-            <loc>https://thliang.dev/</loc><lastmod>2021-02-16T23:23:03&#43;08:00</lastmod></url></urlset>
+            <loc>https://thliang.dev/categories/markdown/</loc><lastmod>2021-02-18T14:29:04&#43;08:00</lastmod></url><url>
+            <loc>https://thliang.dev/posts/</loc><lastmod>2021-02-18T14:29:04&#43;08:00</lastmod></url><url>
+            <loc>https://thliang.dev/tags/</loc><lastmod>2021-02-18T14:29:04&#43;08:00</lastmod></url><url>
+            <loc>https://thliang.dev/</loc><lastmod>2021-02-18T14:29:04&#43;08:00</lastmod></url><url>
+            <loc>https://thliang.dev/tags/html/</loc><lastmod>2021-02-18T14:29:04&#43;08:00</lastmod></url><url>
+            <loc>https://thliang.dev/tags/markdown/</loc><lastmod>2021-02-18T14:29:04&#43;08:00</lastmod></url></urlset>
