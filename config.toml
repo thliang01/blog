@@ -226,12 +226,24 @@ Bilibili = ""
 Email = "thliang01@gmail.com"
 RSS = true # 
 
+# Comment config
+[params.comment]
+enable = true
 # Disqus comment config (https://disqus.com/)
 [params.comment.disqus]
-enable = false
+enable = true
 # Disqus shortname to use Disqus in posts
 shortname = "@disqus_4HC9XXRX6R"
 
+
+# Gitalk comment config
+[params.comment.gitalk]
+# 
+enable = false
+owner = ""
+repo = ""
+clientId = ""
+clientSecret = ""
 [menu]
 [[menu.main]]
 identifier = "posts"
