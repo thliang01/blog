@@ -228,7 +228,7 @@ RSS = true #
 
 # Disqus comment config (https://disqus.com/)
 [params.comment.disqus]
-enable = true
+enable = false
 # Disqus shortname to use Disqus in posts
 # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
 shortname = "@disqus_4HC9XXRX6R"
