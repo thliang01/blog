@@ -3,7 +3,7 @@ title: "Markdown Cheatsheet"
 subtitle: ""
 date: 2021-01-08T21:06:18+08:00
 lastmod: 2021-01-08T21:06:18+08:00
-draft: true
+draft: false
 author: ""
 description: ""
 
@@ -19,8 +19,8 @@ categories: ["Does"]
 hiddenFromHomePage: false
 hiddenFromSearch: false
 
-featuredImage: ""
-featuredImagePreview: ""
+featuredImage: "Markdown"
+featuredImagePreview: "markdown.png"
 
 toc:
   enable: true
