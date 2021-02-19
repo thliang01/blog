@@ -229,6 +229,13 @@ RSS = true #
 # Comment config
 [params.comment]
 enable = true
+
+[params.comment.remark42]
+enable = false
+host = "https://comments.upagge.ru"
+site = "documentation"
+locale = "en"
+
 # Disqus comment config (https://disqus.com/)
 [params.comment.disqus]
 enable = false
