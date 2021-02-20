@@ -231,7 +231,7 @@ RSS = true #
 enable = true
 
 [params.comment.remark42]
-enable = false
+enable = true
 host = "https://comments.upagge.ru"
 site = "documentation"
 locale = "en"
