@@ -246,7 +246,7 @@ shortname = "@disqus_4HC9XXRX6R"
 # Gitalk comment config
 [params.comment.gitalk]
 # 
-enable = true
+enable = false
 owner = "thliang01"
 repo = "https://github.com/thliang01/blog"
 clientId = "101ba67408c0948a367f"
