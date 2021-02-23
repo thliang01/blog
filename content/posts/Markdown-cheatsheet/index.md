@@ -6,7 +6,10 @@ lastmod: 2021-01-08T21:06:18+08:00
 draft: false
 author: ""
 description: ""
-
+resources:
+- name: "featured-image"
+  src: "featured-image.jpg"
+  
 page:
     theme: "wide"
 
@@ -26,7 +29,7 @@ toc:
   enable: true
 math:
   enable: false
-lightgallery: false
+lightgallery: true
 license: license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 ---
 Markdown 文件
