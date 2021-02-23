@@ -1,0 +1,19 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Does - 分類 - Thomas&#39;s Field</title>
+        <link>https://thliang.dev/categories/does/</link>
+        <description>Does - 分類 - Thomas&#39;s Field</description>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 08 Jan 2021 21:06:18 &#43;0800</lastBuildDate><atom:link href="https://thliang.dev/categories/does/" rel="self" type="application/rss+xml" /><item>
+    <title>Markdown Cheatsheet</title>
+    <link>https://thliang.dev/posts/markdown-cheatsheet/</link>
+    <pubDate>Fri, 08 Jan 2021 21:06:18 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://thliang.dev/posts/markdown-cheatsheet/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/Markdown" referrerpolicy="no-referrer">
+            </div>Markdown 文件  
+NOTE: This is Traditional Chinese Edition Document of Markdown Syntax. If you are seeking for English Edition Document. Please refer to Markdown: Syntax.
+Markdown: Syntax  概述  哲學 行內 HTML 特殊字元自動轉換   區塊元素  段落和換行 標題 區塊引言 清單 程式碼區塊 分隔線   區段元素  連結 強調 程式碼 圖片   其它  跳脫字元 自動連結   感謝  **注意：**這份文件是用 Markdown 寫的，你可以看看它的原始檔 。
+ Markdown 的目標是實現「易讀易寫」。]]></description>
+</item></channel>
+</rss>

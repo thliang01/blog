@@ -3,12 +3,40 @@
         <title>Tags - 標籤 - Thomas&#39;s Field</title>
         <link>https://thliang.dev/tags/</link>
         <description>Tags - 標籤 - Thomas&#39;s Field</description>
-        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 11 Feb 2021 10:44:36 &#43;0800</lastBuildDate><atom:link href="https://thliang.dev/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>emoji</title>
-    <link>https://thliang.dev/tags/emoji/</link>
-    <pubDate>Thu, 11 Feb 2021 10:44:36 &#43;0800</pubDate>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 08 Jan 2021 21:06:18 &#43;0800</lastBuildDate><atom:link href="https://thliang.dev/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Markdown</title>
+    <link>https://thliang.dev/tags/markdown/</link>
+    <pubDate>Fri, 08 Jan 2021 21:06:18 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://thliang.dev/tags/emoji/</guid>
+    <guid>https://thliang.dev/tags/markdown/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>configuration</title>
+    <link>https://thliang.dev/tags/configuration/</link>
+    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://thliang.dev/tags/configuration/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>installation</title>
+    <link>https://thliang.dev/tags/installation/</link>
+    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://thliang.dev/tags/installation/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>content</title>
+    <link>https://thliang.dev/tags/content/</link>
+    <pubDate>Thu, 05 Mar 2020 15:58:26 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://thliang.dev/tags/content/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>shortcodes</title>
+    <link>https://thliang.dev/tags/shortcodes/</link>
+    <pubDate>Wed, 04 Mar 2020 16:29:41 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://thliang.dev/tags/shortcodes/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>HTML</title>
@@ -18,11 +46,11 @@
     <guid>https://thliang.dev/tags/html/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Markdown</title>
-    <link>https://thliang.dev/tags/markdown/</link>
-    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
+    <title>emoji</title>
+    <link>https://thliang.dev/tags/emoji/</link>
+    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
     <author>作者</author>
-    <guid>https://thliang.dev/tags/markdown/</guid>
+    <guid>https://thliang.dev/tags/emoji/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

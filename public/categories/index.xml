@@ -3,10 +3,24 @@
         <title>Categories - 分類 - Thomas&#39;s Field</title>
         <link>https://thliang.dev/categories/</link>
         <description>Categories - 分類 - Thomas&#39;s Field</description>
-        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Thu, 11 Feb 2021 10:44:36 &#43;0800</lastBuildDate><atom:link href="https://thliang.dev/categories/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><lastBuildDate>Fri, 08 Jan 2021 21:06:18 &#43;0800</lastBuildDate><atom:link href="https://thliang.dev/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>Does</title>
+    <link>https://thliang.dev/categories/does/</link>
+    <pubDate>Fri, 08 Jan 2021 21:06:18 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://thliang.dev/categories/does/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>documentation</title>
+    <link>https://thliang.dev/categories/documentation/</link>
+    <pubDate>Fri, 06 Mar 2020 21:29:01 &#43;0800</pubDate>
+    <author>作者</author>
+    <guid>https://thliang.dev/categories/documentation/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Markdown</title>
     <link>https://thliang.dev/categories/markdown/</link>
-    <pubDate>Thu, 11 Feb 2021 10:44:36 &#43;0800</pubDate>
+    <pubDate>Sun, 01 Dec 2019 21:57:40 &#43;0800</pubDate>
     <author>作者</author>
     <guid>https://thliang.dev/categories/markdown/</guid>
     <description><![CDATA[]]></description>
