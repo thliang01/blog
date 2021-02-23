@@ -3,7 +3,7 @@ title: "Emoji Cheatsheet"
 subtitle: ""
 date: 2021-02-11T10:44:36+08:00
 lastmod: 2021-02-11T10:44:36+08:00
-draft: true
+draft: false
 author: ""
 description: "Guide to emoji usage in Hugo and Blog."
   
