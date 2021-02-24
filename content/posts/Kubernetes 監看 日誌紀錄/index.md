@@ -8,7 +8,7 @@ author: ""
 description: ""
 resources:
 - name: "featured-image"
-  src: "featured-image.jpg"
+  src: "featured-image.png"
 
 page:
     theme: "wide"
