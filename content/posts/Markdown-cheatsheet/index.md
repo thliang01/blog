@@ -17,7 +17,7 @@ upd: ""
 authorComment: ""
 
 tags: ["Markdown"]
-categories: ["Does"]
+categories: ["documentation"]
 
 hiddenFromHomePage: false
 hiddenFromSearch: false
